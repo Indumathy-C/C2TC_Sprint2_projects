@@ -1,0 +1,77 @@
+.order-list-container {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.order-grid {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 35px;            
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center; 
+}
+
+
+
+.order-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+}
+
+.order-info h3 {
+  color: #6d2b8c;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.order-info p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+}
+
+.order-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn {
+  background: #2a7bbf;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #1b5f92;
+}
+
+.delete-btn {
+  background: #d64541;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #b43733;
+}
+
+.no-order {
+  margin-top: 20px;
+  color: #555;
+}
